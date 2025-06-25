@@ -1,0 +1,19 @@
+name: fraud-detection
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # use if running on CPU, no CUDA
+  - jupyterlab
+  - ipykernel

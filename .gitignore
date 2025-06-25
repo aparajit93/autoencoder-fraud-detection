@@ -1,0 +1,49 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Environments ===
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+
+# === Conda ===
+*.conda
+*.log
+*.lock
+conda-meta/
+
+# === Data and Outputs ===
+!data/*.pkl
+data/*.npz
+data/*.npy
+!data/new_samples.csv
+results/
+models/*.pth
+models/*.txt
+models/*.png
+*.csv
+
+# === VS Code / PyCharm / Other IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS/Editor Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs / Misc ===
+*.log
+logs/
+*.bak
