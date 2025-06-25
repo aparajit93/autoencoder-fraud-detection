@@ -29,9 +29,9 @@ anomaly-detection/
 ├── results/                 # output predictions
 ├── notebooks/               # development notebooks
 ├── scripts/                 # driver scripts
-│   ├── train_model_driver.py
-│   ├── evaluate_model_driver.py
-│   └── predict_driver.py
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│   └── predict.py
 ├── src/
 │   ├── train.py             # training logic
 │   ├── evaluate.py          # evaluation logic
